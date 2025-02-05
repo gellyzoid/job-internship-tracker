@@ -108,7 +108,7 @@ function AppForm({ onAddJobs, setOpenModal, jobs, setJobs }) {
       });
     }
 
-    if (status === "interviewing") {
+    if (status === "processing") {
       Swal.fire({
         icon: "info",
         title: "Great Job!",
